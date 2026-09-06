@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OACP Mission",
+  "type": "object",
+  "required": [
+    "mission_id",
+    "title",
+    "purpose",
+    "question",
+    "success_criteria",
+    "max_cycles",
+    "status"
+  ],
+  "properties": {
+    "mission_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "max_cycles": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 32
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "active",
+        "paused",
+        "completed",
+        "failed",
+        "retired"
+      ]
+    }
+  }
+}

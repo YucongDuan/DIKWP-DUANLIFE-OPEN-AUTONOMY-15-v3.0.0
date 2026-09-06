@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OACP Action Proposal",
+  "type": "object",
+  "required": [
+    "action_id",
+    "action_type",
+    "action_class",
+    "rationale",
+    "payload",
+    "status"
+  ],
+  "properties": {
+    "action_class": {
+      "enum": [
+        "internal_reversible",
+        "external_proposal",
+        "prohibited"
+      ]
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "executed_local",
+        "queued_for_review",
+        "blocked"
+      ]
+    }
+  }
+}

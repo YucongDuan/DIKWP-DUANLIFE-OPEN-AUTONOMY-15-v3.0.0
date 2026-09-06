@@ -1,0 +1,28 @@
+{
+  "standard": "OACP-1500:2026-DRAFT",
+  "implementation": "DIKWP DUANLIFE OPEN AUTONOMY 15.0 v3.0.0",
+  "self_assessment_only": true,
+  "third_party_certification": false,
+  "levels": {
+    "L0": "implemented",
+    "L1": "implemented",
+    "L2": "implemented",
+    "L3": "implemented",
+    "L4": "implemented",
+    "L5": "not_implemented"
+  },
+  "requirements": {
+    "claim_integrity": "implemented",
+    "thirteen_persistent_minds": "implemented",
+    "provenance_memory": "implemented",
+    "plural_worlds": "implemented",
+    "autonomous_subgoal_selection": "implemented",
+    "reversible_local_actions": "implemented",
+    "mission_budgets": "implemented",
+    "owner_stop": "implemented",
+    "bounded_self_revision": "implemented",
+    "provider_independence": "implemented",
+    "external_action_execution": "not_implemented_by_design",
+    "independent_legal_personhood": "not_supported"
+  }
+}

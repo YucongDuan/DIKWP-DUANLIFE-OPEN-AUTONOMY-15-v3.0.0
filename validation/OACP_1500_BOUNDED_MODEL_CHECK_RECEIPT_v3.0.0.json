@@ -1,0 +1,7 @@
+{
+  "reachable_states": 22,
+  "checked_transitions": 21,
+  "violations": [],
+  "passed": true,
+  "max_cycles": 8
+}

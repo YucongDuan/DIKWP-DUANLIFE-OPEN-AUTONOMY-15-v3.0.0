@@ -1,0 +1,13 @@
+{
+  "type": "StaticExecutionAudit",
+  "created_at": "2026-09-05T11:35:18.179668Z",
+  "scanned_files": 18,
+  "findings": [],
+  "passed": true,
+  "assertions": {
+    "network_client_present": false,
+    "shell_executor_present": false,
+    "dynamic_eval_present": false,
+    "automatic_external_action_present": false
+  }
+}

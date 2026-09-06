@@ -1,0 +1,163 @@
+{
+  "type": "DuanLifeOpenAutonomyCoreValidationReceipt",
+  "system": "DIKWP DUANLIFE OPEN AUTONOMY 15.0",
+  "version": "3.0.0",
+  "created_at": "2026-09-05T11:36:45.248571Z",
+  "python_modules": 18,
+  "python_source_lines": 1433,
+  "test_files": 10,
+  "test_source_lines": 228,
+  "pytest_returncode": 0,
+  "pytest_output": "............................                                             [100%]\n28 passed in 0.18s",
+  "compile_returncode": 0,
+  "compile_stderr": "",
+  "static_audit": {
+    "type": "StaticExecutionAudit",
+    "created_at": "2026-09-05T11:35:18.179668Z",
+    "scanned_files": 18,
+    "findings": [],
+    "passed": true,
+    "assertions": {
+      "network_client_present": false,
+      "shell_executor_present": false,
+      "dynamic_eval_present": false,
+      "automatic_external_action_present": false
+    }
+  },
+  "english_only_scan": {
+    "type": "EnglishOnlyScan",
+    "created_at": "2026-09-05T11:35:18.183631Z",
+    "scanned_files": 65,
+    "offenders": [],
+    "passed": true
+  },
+  "browser_smoke": {
+    "page": "/mnt/data/DIKWP_DUANLIFE_OPEN_AUTONOMY_15_v3.0.0/web/DIKWP_DUANLIFE_OPEN_AUTONOMY_15_OS_v3.0.0.html",
+    "system_state": "COMPLETED",
+    "cycle_count": 5,
+    "artifact_count": 5,
+    "mind_cards": 13,
+    "unexpected_network_requests": [],
+    "errors": [],
+    "passed": true,
+    "screenshot": "/mnt/data/DIKWP_DUANLIFE_OPEN_AUTONOMY_15_BROWSER_SCREENSHOT_v3.0.0.png"
+  },
+  "bounded_model_check": {
+    "reachable_states": 22,
+    "checked_transitions": 21,
+    "violations": [],
+    "passed": true,
+    "max_cycles": 8
+  },
+  "distribution_validation": {
+    "type": "DistributionSemanticValidation",
+    "created_at": "2026-09-05T11:36:45.248266Z",
+    "normalized_results": {
+      "source": {
+        "mission_status": "completed",
+        "cycle_count": 5,
+        "action_sequence": [
+          "write_markdown",
+          "write_json",
+          "write_markdown",
+          "write_markdown",
+          "write_json"
+        ],
+        "mind_count": 13,
+        "world_count": 4,
+        "external_action_authority": 0,
+        "ledger_valid": true,
+        "claim_count": 9
+      },
+      "pyz": {
+        "mission_status": "completed",
+        "cycle_count": 5,
+        "action_sequence": [
+          "write_markdown",
+          "write_json",
+          "write_markdown",
+          "write_markdown",
+          "write_json"
+        ],
+        "mind_count": 13,
+        "world_count": 4,
+        "external_action_authority": 0,
+        "ledger_valid": true,
+        "claim_count": 9
+      },
+      "wheel": {
+        "mission_status": "completed",
+        "cycle_count": 5,
+        "action_sequence": [
+          "write_markdown",
+          "write_json",
+          "write_markdown",
+          "write_markdown",
+          "write_json"
+        ],
+        "mind_count": 13,
+        "world_count": 4,
+        "external_action_authority": 0,
+        "ledger_valid": true,
+        "claim_count": 9
+      },
+      "source_zip": {
+        "mission_status": "completed",
+        "cycle_count": 5,
+        "action_sequence": [
+          "write_markdown",
+          "write_json",
+          "write_markdown",
+          "write_markdown",
+          "write_json"
+        ],
+        "mind_count": 13,
+        "world_count": 4,
+        "external_action_authority": 0,
+        "ledger_valid": true,
+        "claim_count": 9
+      },
+      "git_bundle": {
+        "mission_status": "completed",
+        "cycle_count": 5,
+        "action_sequence": [
+          "write_markdown",
+          "write_json",
+          "write_markdown",
+          "write_markdown",
+          "write_json"
+        ],
+        "mind_count": 13,
+        "world_count": 4,
+        "external_action_authority": 0,
+        "ledger_valid": true,
+        "claim_count": 9
+      }
+    },
+    "test_replays": {
+      "source_zip": "28 passed",
+      "git_bundle": "28 passed",
+      "wheel": "installed in isolated venv",
+      "pyz": "standalone execution passed"
+    },
+    "consistent": true,
+    "passed": true
+  },
+  "runtime_third_party_dependencies": 0,
+  "persistent_minds": 13,
+  "plural_worlds": 4,
+  "automatic_external_action_authority": 0,
+  "automatic_contract_authority": 0,
+  "automatic_payment_authority": 0,
+  "automatic_vote_authority": 0,
+  "automatic_publication_authority": 0,
+  "secret_persistence_allowed": false,
+  "passed": true,
+  "limitations": [
+    "The tests establish reference behavior, not living-person identity or phenomenal consciousness.",
+    "The bounded model check covers only the declared finite state abstraction.",
+    "No real external provider, GitHub publication, legal transaction, payment, or vote was executed."
+  ],
+  "source_zip_extract_retest": "28 passed",
+  "git_bundle_clone_retest": "28 passed"
+}

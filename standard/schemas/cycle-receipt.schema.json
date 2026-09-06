@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OACP Autonomous Cycle Receipt",
+  "type": "object",
+  "required": [
+    "mission",
+    "worlds",
+    "council",
+    "selected_action",
+    "action_result",
+    "progress",
+    "reflection",
+    "external_action_authority",
+    "digest"
+  ],
+  "properties": {
+    "external_action_authority": {
+      "const": 0
+    }
+  }
+}

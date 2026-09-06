@@ -1,0 +1,8 @@
+Term,Definition
+Autonomous mission,A bounded local purpose that may select subgoals and reversible actions without step-by-step human instruction
+Persistent mind,A separately identified and keyed functional deliberation process with its own memory namespace
+Plural world,A conditional model retained alongside non-identical alternatives
+Protected invariant,A field the runtime cannot self-modify
+External proposal,A reviewable packet describing an external consequence without executing it
+Owner stop,A non-self-overridable halt signal
+Reality contact,External outcome evidence used to revise or retire a model

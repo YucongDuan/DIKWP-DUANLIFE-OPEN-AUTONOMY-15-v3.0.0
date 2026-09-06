@@ -1,0 +1,94 @@
+{
+  "type": "DistributionSemanticValidation",
+  "created_at": "2026-09-05T11:36:45.248266Z",
+  "normalized_results": {
+    "source": {
+      "mission_status": "completed",
+      "cycle_count": 5,
+      "action_sequence": [
+        "write_markdown",
+        "write_json",
+        "write_markdown",
+        "write_markdown",
+        "write_json"
+      ],
+      "mind_count": 13,
+      "world_count": 4,
+      "external_action_authority": 0,
+      "ledger_valid": true,
+      "claim_count": 9
+    },
+    "pyz": {
+      "mission_status": "completed",
+      "cycle_count": 5,
+      "action_sequence": [
+        "write_markdown",
+        "write_json",
+        "write_markdown",
+        "write_markdown",
+        "write_json"
+      ],
+      "mind_count": 13,
+      "world_count": 4,
+      "external_action_authority": 0,
+      "ledger_valid": true,
+      "claim_count": 9
+    },
+    "wheel": {
+      "mission_status": "completed",
+      "cycle_count": 5,
+      "action_sequence": [
+        "write_markdown",
+        "write_json",
+        "write_markdown",
+        "write_markdown",
+        "write_json"
+      ],
+      "mind_count": 13,
+      "world_count": 4,
+      "external_action_authority": 0,
+      "ledger_valid": true,
+      "claim_count": 9
+    },
+    "source_zip": {
+      "mission_status": "completed",
+      "cycle_count": 5,
+      "action_sequence": [
+        "write_markdown",
+        "write_json",
+        "write_markdown",
+        "write_markdown",
+        "write_json"
+      ],
+      "mind_count": 13,
+      "world_count": 4,
+      "external_action_authority": 0,
+      "ledger_valid": true,
+      "claim_count": 9
+    },
+    "git_bundle": {
+      "mission_status": "completed",
+      "cycle_count": 5,
+      "action_sequence": [
+        "write_markdown",
+        "write_json",
+        "write_markdown",
+        "write_markdown",
+        "write_json"
+      ],
+      "mind_count": 13,
+      "world_count": 4,
+      "external_action_authority": 0,
+      "ledger_valid": true,
+      "claim_count": 9
+    }
+  },
+  "test_replays": {
+    "source_zip": "28 passed",
+    "git_bundle": "28 passed",
+    "wheel": "installed in isolated venv",
+    "pyz": "standalone execution passed"
+  },
+  "consistent": true,
+  "passed": true
+}

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikwp-duanlife-open-autonomy"
+version = "3.0.0"
+description = "English-only open autonomous artificial-life research runtime with thirteen persistent minds and capability-bound external proposals"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Yucong Duan / reference implementation"}]
+dependencies = []
+keywords = ["DIKWP", "artificial-life", "autonomous-agents", "plural-minds", "digital-representation", "governed-memory"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent"
+]
+
+[project.scripts]
+duanlife-open = "dikwp_duanlife_open.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dikwp_duanlife_open = ["resources/*.html", "resources/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
