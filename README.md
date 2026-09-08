@@ -1,6 +1,8 @@
 # DIKWP DUANLIFE OPEN AUTONOMY 15.0
 
-**One constitutional core. Thirteen persistent minds. Autonomous local missions. No hidden authority.**
+Created by Yucong Duan (段玉聪).
+
+One constitutional core. Thirteen persistent minds. Autonomous local missions. No hidden authority.
 
 DuanLife Open Autonomy 15.0 is an English-only, offline-first, provider-independent research runtime for evidence-bound digital representation, artificial life, plural-mind deliberation, governed memory, and self-directed mission execution.
 
@@ -47,4 +49,8 @@ This release is one node in Yucong Duan's open DIKWP research ecosystem. Explore
 
 ## Dedication and attribution boundary
 
-This open research project is dedicated with love to **Duan Dikweipu**, daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+This open research project is dedicated with love to Duan Dikweipu, daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+
+## Current interface presentation
+
+[Open the interface source](web/DIKWP_DUANLIFE_OPEN_AUTONOMY_15_OS_v3.0.0.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
