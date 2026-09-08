@@ -2,7 +2,7 @@ from pathlib import Path
 import re
 
 
-def test_project_text_is_english_only():
+def test_project_text_is_english_except_creator_name():
     root = Path(__file__).resolve().parents[1]
     pattern = re.compile(r"[\u3400-\u9fff]")
     allowed = {".py", ".md", ".json", ".csv", ".html", ".toml", ".cff", ".txt", ".yml", ".yaml", ".tla"}
@@ -13,6 +13,8 @@ def test_project_text_is_english_only():
                 text = path.read_text(encoding="utf-8")
             except UnicodeDecodeError:
                 continue
+            # Keep the English-language gate while allowing the creator's exact name.
+            text = text.replace("\u6bb5\u7389\u806a", "")
             if pattern.search(text):
                 offenders.append(str(path.relative_to(root)))
     assert offenders == []
